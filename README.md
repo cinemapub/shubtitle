@@ -1,4 +1,7 @@
 # shubtitle
+
+![](assets/unsplash.subtitle.jpg)
+
 Add subtitle to video (bash/imagemagick/ffmpeg)
 
 ```bash
@@ -27,3 +30,5 @@ Flags, options and parameters:
     <input>          : [parameter] input file (optional)
     <output>         : [parameter] output file (optional)
 ```
+
+* the default dimensions (1100 x 50, at 975 from the top) are perfect for 1920x1080 video
