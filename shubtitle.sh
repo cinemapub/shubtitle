@@ -12,7 +12,7 @@ script_version="0.0.1" # if there is a VERSION.md in this script's folder, that 
 readonly script_author="p.forret@brightfish.be"
 readonly script_created="2023-11-28"
 readonly run_as_root=-1 # run_as_root: 0 = don't check anything / 1 = script MUST run as root / -1 = script MAY NOT run as root
-readonly script_description="replace subtitles on video"
+readonly script_description="add/replace subtitles on video"
 ## some initialisation
 action=""
 script_prefix=""
@@ -59,7 +59,7 @@ option|S|start|start at N seconds|0
 option|E|end|end at N seconds|500
 option|T|title|subtitle text|Bier met liefde gebrouwen, drink je met verstand
 option|P|points|subtitle size|32
-choice|1|action|action to perform|subtitle,action2,check,env,update
+choice|1|action|action to perform|subtitle,check,env,update
 param|?|input|input file
 param|?|output|output file
 " -v -e '^#' -e '^\s*$'
