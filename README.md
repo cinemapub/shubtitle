@@ -6,8 +6,8 @@ Program : shubtitle  by p.forret@brightfish.be
 Version : v0.1.0 (2023-11-28 10:22)
 Purpose : add/replace subtitles on video
 Usage   : shubtitle [-h] [-q] [-v] [-f] [-l <log_dir>] [-t <tmp_dir>] 
-			[-W <width>] [-H <height>] [-Y <vertical>] [-F <font>] [-S <start>] [-E <end>] [-T <title>] [-P <points>] 
-			<action> <input?> <output?>
+		[-W <width>] [-H <height>] [-Y <vertical>] [-F <font>] [-S <start>] [-E <end>] [-T <title>] [-P <points>] 
+		<action> <input?> <output?>
 Flags, options and parameters:
     -h|--help        : [flag] show usage [default: off]
     -q|--quiet       : [flag] no output [default: off]
